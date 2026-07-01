@@ -1,4 +1,5 @@
-import { useEffect, useRef, useState } from "react";
+/** @jsxRuntime classic */
+import React, { useEffect, useRef, useState } from "react";
 import {
   MapPin, ArrowRight,
   ArrowLeft, Briefcase, CheckCircle2, X, Upload,
@@ -86,7 +87,7 @@ function Logo({ onHome }: { onHome?: () => void }) {
   return (
     <a
       href="#"
-      onClick={(e) => { e.preventDefault(); onHome?.(); }}
+      onClick={(e: { preventDefault: () => void; }) => { e.preventDefault(); onHome?.(); }}
       className="flex items-center gap-2"
     >
       <img
@@ -97,8 +98,8 @@ function Logo({ onHome }: { onHome?: () => void }) {
         className="h-9 w-9 object-contain shrink-0"
       />
       <div className="flex items-baseline gap-0 leading-none">
-        <span style={{ fontFamily: "'Berkshire Swash', serif", fontSize: "1.35rem", color: TEXT_DARK }}>Local</span>
-        <span style={{ fontFamily: "'Berkshire Swash', serif", fontSize: "1.35rem", color: GOLD_DARK  }}>SM</span>
+        <span style={{ fontFamily: "'EB Garamond', serif", fontSize: "1.35rem", color: TEXT_DARK }}>Local</span>
+        <span style={{ fontFamily: "'EB Garamond', serif", fontSize: "1.35rem", color: GOLD_DARK  }}>SM</span>
       </div>
     </a>
   );
@@ -643,7 +644,7 @@ function HomePage({
           <div>
             <h1 className="text-5xl sm:text-6xl font-extrabold leading-[1.08] mb-5" style={{ color: TEXT_DARK }}>
               Work with<br />
-              <span style={{ fontFamily: "'Berkshire Swash', serif", color: GOLD_DARK, fontWeight: 400 }}>Us.</span>
+              <span style={{ fontFamily: "'EB Garamond', serif", color: GOLD_DARK, fontWeight: 400 }}>Us.</span>
             </h1>
             <p className="text-base sm:text-lg leading-relaxed mb-8 max-w-md" style={{ color: TEXT_MUTED }}>
               Find jobs that match your interests and abilities with a minimal, modern hiring experience.
