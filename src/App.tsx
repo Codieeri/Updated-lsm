@@ -97,10 +97,10 @@ function Logo({ onHome }: { onHome?: () => void }) {
         height={36}
         className="h-9 w-9 object-contain shrink-0"
       />
-      <div className="flex items-baseline gap-0 leading-none">
-        <span style={{ fontFamily: "'EB Garamond', serif", fontSize: "1.35rem", color: TEXT_DARK }}>Local</span>
-        <span style={{ fontFamily: "'EB Garamond', serif", fontSize: "1.35rem", color: GOLD_DARK  }}>SM</span>
-        <span style={{ fontFamily: "'EB Garamond', serif", fontSize: "1.35rem", color: TEXT_DARK }}>Hiring</span>
+      <div className="flex items-baseline gap-1 leading-none">
+        <span style={{ fontFamily: "'Berkshire+Swash', serif", fontSize: "1.35rem", color: TEXT_DARK }}>Local</span>
+        <span style={{ fontFamily: "'Berkshire+Swash', serif", fontSize: "1.35rem", color: GOLD_DARK  }}>SM</span>
+        <span style={{ fontFamily: "'Berkshire+Swash', serif", fontSize: "1.35rem", color: TEXT_DARK }}>Hiring</span>
       </div>
     </a>
   );
