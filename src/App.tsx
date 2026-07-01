@@ -87,7 +87,7 @@ function Logo({ onHome }: { onHome?: () => void }) {
   return (
     <a
       href="#"
-      onClick={(e: { preventDefault: () => void; }) => { e.preventDefault(); onHome?.(); }}
+      onClick={(e) => { e.preventDefault(); onHome?.(); }}
       className="flex items-center gap-2"
     >
       <img
@@ -98,9 +98,10 @@ function Logo({ onHome }: { onHome?: () => void }) {
         className="h-9 w-9 object-contain shrink-0"
       />
       <div className="flex items-baseline gap-1 leading-none">
-        <span style={{ fontFamily: "'Berkshire+Swash', serif", fontSize: "1.35rem", color: TEXT_DARK }}>Local</span>
-        <span style={{ fontFamily: "'Berkshire+Swash', serif", fontSize: "1.35rem", color: GOLD_DARK  }}>SM</span>
-        <span style={{ fontFamily: "'Berkshire+Swash', serif", fontSize: "1.35rem", color: TEXT_DARK }}>Hiring</span>
+        <span style={{ fontFamily: "'Berkshire Swash', serif", fontSize: "1.35rem", color: TEXT_DARK }}>Local</span>
+        <span style={{ fontFamily: "'Berkshire Swash', serif", fontSize: "1.35rem", color: GOLD_DARK  }}>SM</span>
+        <span style={{ fontFamily: "'Berkshire Swash', serif", fontSize: "1.30rem", color: TEXT_DARK }}>Hiring</span>
+
       </div>
     </a>
   );
