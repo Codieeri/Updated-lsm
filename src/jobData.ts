@@ -18,7 +18,7 @@ export interface JobDetail {
 
 export const JOB_DETAILS: JobDetail[] = [
   {
-    title: "AI Web Developer Intern",
+    title: "AI Web Developer Intern(+Marketing)",
     dept: "Web Development",
     deptKey: "web",
     location: "Remote",
@@ -157,7 +157,7 @@ export const JOB_DETAILS: JobDetail[] = [
     ],
   },
   {
-    title: "Data Analyst Intern",
+    title: "Data Analyst Intern(+Marketing)",
     dept: "Product Management",
     deptKey: "product",
     location: "Remote",
