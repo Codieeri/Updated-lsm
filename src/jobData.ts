@@ -28,7 +28,8 @@ export const JOB_DETAILS: JobDetail[] = [
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&q=80",
     description:
       "Join LocalSM as an AI Web Developer and contribute to building the next generation of our local commerce platform. You'll leverage AI tools to design, build, and iterate on real product features that directly impact thousands of users in Jabalpur and beyond. This is a remote, hands-on role ideal for self-starters who want to learn fast and ship real work.",
-    const requirements = [
+   
+    requirements = [
   "Strong foundational understanding of HTML, CSS, JavaScript, and modern front-end frameworks such as React.",
   "Genuine interest in AI technologies and their application in real-world products and user experiences.",
   "Ability to work independently, manage priorities effectively, and thrive in a remote work environment.",
