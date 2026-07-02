@@ -662,11 +662,11 @@ function HomePage({
                 <div key={i} className="w-1.5 h-1.5 rounded-full" style={{ backgroundColor: GOLD_DARK, opacity: 0.2 }} />
               ))}
             </div>
-            <img
-              src="/hero-computer.png"
-              alt="LocalSM computer"
-              className="relative w-[240px] sm:w-[288px] h-[240px] sm:h-[288px] object-contain drop-shadow-2xl"
-            />
+           <img
+  src="/hero-computer.png"
+  alt="LocalSM computer"
+  className="relative w-[300px] sm:w-[380px] h-[300px] sm:h-[380px] object-contain drop-shadow-2xl"
+/>
           </div>
         </div>
       </section>
