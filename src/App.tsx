@@ -665,7 +665,7 @@ function HomePage({
            <img
   src="/hero-computer.png"
   alt="LocalSM computer"
-  className="relative w-[300px] sm:w-[380px] h-[300px] sm:h-[380px] object-contain drop-shadow-2xl"
+  className="relative w-[300px] sm:w-[400px] h-[400px] sm:h-[380px] object-contain drop-shadow-3xl"
 />
           </div>
         </div>
