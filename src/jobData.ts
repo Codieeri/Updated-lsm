@@ -28,21 +28,13 @@ export const JOB_DETAILS: JobDetail[] = [
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&q=80",
     description:
       "Join LocalSM as an AI Web Developer and contribute to building the next generation of our local commerce platform. You'll leverage AI tools to design, build, and iterate on real product features that directly impact thousands of users in Jabalpur and beyond. This is a remote, hands-on role ideal for self-starters who want to learn fast and ship real work.",
-    responsibilities: [
-      "Develop and maintain front-end and back-end features using modern web technologies.",
-      "Integrate AI tools and APIs (e.g., OpenAI, Gemini) into the platform.",
-      "Collaborate with the product and design team on new feature specs.",
-      "Write clean, well-documented code that can be reviewed and maintained.",
-      "Participate in weekly team check-ins and async standups.",
-      "Research and propose AI-driven improvements to existing workflows.",
-    ],
-    requirements: [
-      "Basic to intermediate knowledge of HTML, CSS, JavaScript, or React.",
-      "Curiosity about AI tools and how they can be applied to real products.",
-      "Ability to work independently and manage your own time remotely.",
-      "Clear communication in English (spoken and written).",
-      "Willingness to commit at least 2–4 hours daily.",
-    ],
+    const requirements = [
+  "Strong foundational understanding of HTML, CSS, JavaScript, and modern front-end frameworks such as React.",
+  "Genuine interest in AI technologies and their application in real-world products and user experiences.",
+  "Ability to work independently, manage priorities effectively, and thrive in a remote work environment.",
+  "Excellent communication skills, both written and verbal, with a collaborative mindset.",
+  "Availability to work full-time (up to 8 hours per day) with a strong commitment to delivering high-quality results."
+];
     bonusSkills: [
       "Experience with Next.js, Tailwind CSS, or Node.js.",
       "Prior use of AI tools like ChatGPT, GitHub Copilot, or similar.",
@@ -55,12 +47,11 @@ export const JOB_DETAILS: JobDetail[] = [
       "Potential conversion to a paid role or equity consideration.",
       "Flexible hours — work from anywhere.",
     ],
-    skills: ["AI"],
+    skills: ["AI","Web Development"],
     customQuestions: [
       "Why do you want to work with LocalSM?",
       "What skills make you suitable for this role?",
       "Share links to any previous work, portfolio, or social pages.",
-      "How many hours daily can you dedicate?",
       "Are you available for meetings or field visits if required?",
       "Are you comfortable working in a startup environment?",
     ],
@@ -82,7 +73,6 @@ export const JOB_DETAILS: JobDetail[] = [
       "Maintain and evolve the LocalSM design system and component library.",
       "Collaborate with developers to ensure designs are implemented accurately.",
       "Iterate on feedback from users and stakeholders quickly.",
-      "Create assets for social media, marketing, and product use.",
     ],
     requirements: [
       "Proficiency in Figma or Adobe XD for design and prototyping.",
@@ -103,12 +93,11 @@ export const JOB_DETAILS: JobDetail[] = [
       "Portfolio-worthy projects you can show publicly.",
       "Flexible hours — work from anywhere.",
     ],
-    skills: ["Designing"],
+    skills: ["UI/UX Designing"],
     customQuestions: [
       "Why do you want to work with LocalSM?",
       "Share links to any previous work, portfolio, or social pages.",
       "What skills make you suitable for this role?",
-      "How many hours daily can you dedicate?",
       "Are you available for meetings or field visits if required?",
       "Are you comfortable working in a startup environment?",
     ],
@@ -148,12 +137,11 @@ export const JOB_DETAILS: JobDetail[] = [
       "Portfolio-worthy work published on live channels.",
       "Letter of recommendation for strong performers.",
     ],
-    skills: ["AI", "Workflow"],
+    skills: ["AI", "Workflow","Graphic Designing"],
     customQuestions: [
       "Why do you want to work with LocalSM?",
       "Share links to any previous work, portfolio, or social pages.",
-      "What skills make you suitable for this role?",
-      "How many hours daily can you dedicate?",
+      "What skills make you suitable for this role?",   
     ],
   },
   {
@@ -192,12 +180,12 @@ export const JOB_DETAILS: JobDetail[] = [
       "Letter of recommendation for strong performers.",
       "Flexible hours — work from anywhere.",
     ],
-    skills: ["AI", "Data", "Product", "Management"],
+    skills: ["AI", "Data", "Product", "Management","Marketing"],
     customQuestions: [
       "What skills make you suitable for this role?",
       "Why do you want to work with LocalSM?",
       "Share links to any previous work, portfolio, or social pages.",
-      "How many hours daily can you dedicate?",
+     
       "Are you comfortable working in a startup environment?",
       "Are you available for meetings or field visits if required?",
       "Have you handled social media pages before? If yes, which platforms?",
@@ -245,7 +233,7 @@ export const JOB_DETAILS: JobDetail[] = [
       "Why do you want to work with LocalSM?",
       "What skills make you suitable for this role?",
       "Share links to any previous work, portfolio, or social pages.",
-      "How many hours daily can you dedicate?",
+     
       "Are you comfortable working in a startup environment?",
       "Are you available for meetings or field visits if required?",
     ],
@@ -286,12 +274,12 @@ export const JOB_DETAILS: JobDetail[] = [
       "Letter of recommendation for strong performers.",
       "Flexible hours — work from anywhere.",
     ],
-    skills: ["AI", "Data", "Testing", "Bug Detection"],
+    skills: ["AI", "Data", "Testing", "Bug Detection and solving"],
     customQuestions: [
       "Why do you want to work with LocalSM?",
       "What skills make you suitable for this role?",
       "Share links to any previous work, portfolio, or social pages.",
-      "How many hours daily can you dedicate?",
+     
       "Are you comfortable working in a startup environment?",
       "Are you available for meetings or field visits if required?",
     ],
@@ -332,12 +320,12 @@ export const JOB_DETAILS: JobDetail[] = [
       "Letter of recommendation for strong performers.",
       "Flexible hours — work from anywhere.",
     ],
-    skills: ["Marketing", "Management"],
+    skills: ["Marketing", "Management", "Engagement"],
     customQuestions: [
       "Why do you want to work with LocalSM?",
       "What skills make you suitable for this role?",
       "Share links to any previous work, portfolio, or social pages.",
-      "How many hours daily can you dedicate?",
+     
       "Are you comfortable working in a startup environment?",
     ],
   },
@@ -382,7 +370,7 @@ export const JOB_DETAILS: JobDetail[] = [
       "Why do you want to work with LocalSM?",
       "What skills make you suitable for this role?",
       "Share links to any previous work, portfolio, or social pages.",
-      "How many hours daily can you dedicate?",
+     
       "Are you comfortable working in a startup environment?",
       "Are you available for meetings or field visits if required?",
     ],
@@ -428,7 +416,7 @@ export const JOB_DETAILS: JobDetail[] = [
       "Why do you want to work with LocalSM?",
       "What skills make you suitable for this role?",
       "Share links to any previous work, portfolio, or social pages.",
-      "How many hours daily can you dedicate?",
+     
       "Are you comfortable working in a startup environment?",
       "Are you available for meetings or field visits if required?",
     ],
@@ -475,7 +463,7 @@ export const JOB_DETAILS: JobDetail[] = [
       "Why do you want to work with LocalSM?",
       "What skills make you suitable for this role?",
       "Share links to any previous work, portfolio, or social pages.",
-      "How many hours daily can you dedicate?",
+     
       "Are you comfortable working in a startup environment?",
       "Are you available for meetings or field visits if required?",
     ],
