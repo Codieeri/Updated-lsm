@@ -28,14 +28,22 @@ export const JOB_DETAILS: JobDetail[] = [
     image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&q=80",
     description:
       "Join LocalSM as an AI Web Developer and contribute to building the next generation of our local commerce platform. You'll leverage AI tools to design, build, and iterate on real product features that directly impact thousands of users in Jabalpur and beyond. This is a remote, hands-on role ideal for self-starters who want to learn fast and ship real work.",
-   
-    requirements = [
+     
+    responsibilities: [
+    "Develop and maintain front-end and back-end features using modern web technologies.",
+    "Integrate AI tools and APIs (e.g., OpenAI, Gemini) into the platform.",
+    "Collaborate with the product and design team on new feature specifications.",
+    "Write clean, well-documented code that can be reviewed and maintained.",
+    "Participate in weekly team check-ins and async standups.",
+    "Research and propose AI-driven improvements to existing workflows."
+  ],
+requirements: [
   "Strong foundational understanding of HTML, CSS, JavaScript, and modern front-end frameworks such as React.",
   "Genuine interest in AI technologies and their application in real-world products and user experiences.",
   "Ability to work independently, manage priorities effectively, and thrive in a remote work environment.",
   "Excellent communication skills, both written and verbal, with a collaborative mindset.",
-  "Availability to work full-time (up to 8 hours per day) with a strong commitment to delivering high-quality results."
-];
+  "Availability to work full-time (up to 8 hours per day) with a strong commitment to delivering high-quality results.",
+],
     bonusSkills: [
       "Experience with Next.js, Tailwind CSS, or Node.js.",
       "Prior use of AI tools like ChatGPT, GitHub Copilot, or similar.",
